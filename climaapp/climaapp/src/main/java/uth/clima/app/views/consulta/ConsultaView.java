@@ -112,6 +112,8 @@ public class ConsultaView extends Div {
                 phone.clear();
                 onSearch.run();
                 
+                
+                //Creacion de boton Consultar
             });
             Button searchBtn = new Button("Consultar");
             searchBtn.addThemeVariants(ButtonVariant.LUMO_PRIMARY);
