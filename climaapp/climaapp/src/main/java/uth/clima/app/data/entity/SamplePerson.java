@@ -1,15 +1,11 @@
 package uth.clima.app.data.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.validation.constraints.Email;
 import java.time.LocalDate;
 
-@Entity
-public class SamplePerson extends AbstractEntity {
+public class SamplePerson {
 
     private String firstName;
     private String lastName;
-    @Email
     private String email;
     private String phone;
     private LocalDate dateOfBirth;

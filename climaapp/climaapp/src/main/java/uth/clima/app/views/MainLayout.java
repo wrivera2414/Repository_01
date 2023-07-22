@@ -12,7 +12,6 @@ import com.vaadin.flow.component.sidenav.SideNavItem;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.theme.lumo.LumoUtility;
 import org.vaadin.lineawesome.LineAwesomeIcon;
-import uth.clima.app.views.about.AboutView;
 import uth.clima.app.views.consulta.ConsultaView;
 
 /**
@@ -53,7 +52,6 @@ public class MainLayout extends AppLayout {
 
         nav.addItem(
                 new SideNavItem("Consulta", ConsultaView.class, LineAwesomeIcon.CLOUD_SHOWERS_HEAVY_SOLID.create()));
-        nav.addItem(new SideNavItem("About", AboutView.class, LineAwesomeIcon.FILE.create()));
 
         return nav;
     }
