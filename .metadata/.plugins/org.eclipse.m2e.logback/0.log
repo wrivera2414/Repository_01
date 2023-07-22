@@ -1639,3 +1639,6 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.vaadin:va
 2023-07-22 02:42:02,273 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-07-22 02:42:02,282 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
 2023-07-22 02:42:02,292 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Dell\eclipse-workspace\Repository_01\climaapp\climaapp\src\test\resources
+2023-07-22 03:07:07,723 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-22 03:07:07,747 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-22 03:07:07,754 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Dell\eclipse-workspace\Repository_01\climaapp\climaapp\src\test\resources
