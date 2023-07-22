@@ -1600,3 +1600,19 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.vaadin:va
 2023-07-22 02:04:06,127 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-07-22 02:04:06,133 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
 2023-07-22 02:04:06,137 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Dell\eclipse-workspace\Repository_01\climaapp\climaapp\src\test\resources
+2023-07-22 02:25:29,266 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-22 02:26:28,949 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uth.clima.app:climaapp:1.0-SNAPSHOT @ C:\Users\DELL\Documents\Java-WorkSpace\Repository_01\climaapp\climaapp\pom.xml.
+2023-07-22 02:26:40,887 [Worker-10: Importing Maven projects] INFO  org.reflections.Reflections - Reflections took 2992 ms to scan 159 urls, producing 8865 keys and 43604 values
+2023-07-22 02:26:40,928 [Worker-10: Importing Maven projects] INFO  c.v.f.s.f.TaskCopyFrontendFiles - Copying frontend resources from jar files ...
+2023-07-22 02:26:41,177 [Worker-10: Importing Maven projects] INFO  c.v.f.s.f.TaskCopyFrontendFiles - Visited 158 resources. Took 249 ms.
+2023-07-22 02:26:41,298 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /climaapp/src/main/java
+2023-07-22 02:26:41,300 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /climaapp/src/main/resources
+2023-07-22 02:26:41,305 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /climaapp/src/main/resources
+2023-07-22 02:26:41,306 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /climaapp/src/test/java
+2023-07-22 02:26:44,428 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 18 sec
+2023-07-22 02:26:46,047 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-22 02:26:46,064 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-22 02:26:51,374 [Worker-5: Building] INFO  org.reflections.Reflections - Reflections took 1187 ms to scan 159 urls, producing 8873 keys and 43614 values
+2023-07-22 02:26:51,381 [Worker-5: Building] INFO  c.v.f.s.f.TaskCopyFrontendFiles - Copying frontend resources from jar files ...
+2023-07-22 02:26:51,561 [Worker-5: Building] INFO  c.v.f.s.f.TaskCopyFrontendFiles - Visited 158 resources. Took 179 ms.
+2023-07-22 02:26:51,566 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\Repository_01\climaapp\climaapp\src\test\resources
