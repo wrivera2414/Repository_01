@@ -10,7 +10,6 @@ public class SamplePerson {
     private String phone;
     private LocalDate dateOfBirth;
     private String occupation;
-    private String role;
     private boolean important;
 
     public String getFirstName() {
@@ -49,12 +48,7 @@ public class SamplePerson {
     public void setOccupation(String occupation) {
         this.occupation = occupation;
     }
-    public String getRole() {
-        return role;
-    }
-    public void setRole(String role) {
-        this.role = role;
-    }
+  
     public boolean isImportant() {
         return important;
     }

@@ -1616,3 +1616,9 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.vaadin:va
 2023-07-22 02:26:51,381 [Worker-5: Building] INFO  c.v.f.s.f.TaskCopyFrontendFiles - Copying frontend resources from jar files ...
 2023-07-22 02:26:51,561 [Worker-5: Building] INFO  c.v.f.s.f.TaskCopyFrontendFiles - Visited 158 resources. Took 179 ms.
 2023-07-22 02:26:51,566 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\Repository_01\climaapp\climaapp\src\test\resources
+2023-07-22 02:46:14,856 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-22 02:46:14,872 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-22 02:46:14,888 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\Repository_01\climaapp\climaapp\src\test\resources
+2023-07-22 02:59:16,858 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-22 02:59:16,867 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-22 02:59:16,885 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\Repository_01\climaapp\climaapp\src\test\resources

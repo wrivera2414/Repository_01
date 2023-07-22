@@ -34,14 +34,16 @@ public class ConsultaView extends Div {
         setSizeFull();
         addClassNames("consulta-view");
         
+        
+        
+        //Columnas Del Grid Consulta donde se van a mostrar los datos.
         grid = new Grid<>(SamplePerson.class, false);
-        grid.addColumn("firstName").setAutoWidth(true);
-        grid.addColumn("lastName").setAutoWidth(true);
-        grid.addColumn("email").setAutoWidth(true);
-        grid.addColumn("phone").setAutoWidth(true);
-        grid.addColumn("dateOfBirth").setAutoWidth(true);
-        grid.addColumn("occupation").setAutoWidth(true);
-        grid.addColumn("role").setAutoWidth(true);
+        grid.addColumn("firstName").setAutoWidth(true).setHeader("Descripcion");
+        grid.addColumn("lastName").setAutoWidth(true).setHeader("Temperatura");
+        grid.addColumn("email").setAutoWidth(true).setHeader("Lugar");
+        grid.addColumn("phone").setAutoWidth(true).setHeader("SensacionTermica");
+        grid.addColumn("dateOfBirth").setAutoWidth(true).setHeader("Estado");
+        grid.addColumn("occupation").setAutoWidth(true).setHeader("Fecha");
 
         /*grid.setItems(query -> samplePersonService.list(
                 PageRequest.of(query.getPage(), query.getPageSize(), VaadinSpringDataHelpers.toSpringDataSort(query)),
