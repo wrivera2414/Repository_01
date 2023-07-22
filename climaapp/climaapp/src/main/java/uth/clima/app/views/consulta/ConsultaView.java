@@ -8,6 +8,7 @@ import com.vaadin.flow.component.grid.GridVariant;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.Span;
 import com.vaadin.flow.component.icon.Icon;
+import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
@@ -91,6 +92,7 @@ public class ConsultaView extends Div {
 
         private final TextField name = new TextField("Longitud");
         private final TextField phone = new TextField("Latitud");
+        private final TextField Tiempo = new TextField("Ubicacion");
 
         public Filters(Runnable onSearch) {
 
@@ -114,12 +116,14 @@ public class ConsultaView extends Div {
             Button searchBtn = new Button("Consultar");
             searchBtn.addThemeVariants(ButtonVariant.LUMO_PRIMARY);
             searchBtn.addClickListener(e -> onSearch.run());
-
+            
+            Tiempo.setVisible(true);
+            Tiempo.setPrefixComponent(VaadinIcon.MAP_MARKER.create());
             Div actions = new Div(resetBtn, searchBtn);
             actions.addClassName(LumoUtility.Gap.SMALL);
             actions.addClassName("actions");
 
-            add(name, phone, actions);
+            add(name, phone,Tiempo, actions);
         }
 
 
