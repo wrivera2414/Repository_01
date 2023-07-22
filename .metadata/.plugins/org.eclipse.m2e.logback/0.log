@@ -1634,3 +1634,12 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.vaadin:va
 2023-07-22 04:09:37,886 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-07-22 04:09:37,925 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
 2023-07-22 04:09:37,930 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\Repository_01\climaapp\climaapp\src\test\resources
+2023-07-22 04:29:02,587 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-22 04:29:02,638 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-22 04:29:02,644 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\Repository_01\climaapp\climaapp\src\test\resources
+2023-07-22 04:29:34,061 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-22 04:29:34,072 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-22 04:29:34,087 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\Repository_01\climaapp\climaapp\src\test\resources
+2023-07-22 04:30:43,123 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-22 04:30:43,132 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-22 04:30:43,141 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\Repository_01\climaapp\climaapp\src\test\resources

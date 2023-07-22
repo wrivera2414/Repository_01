@@ -18,6 +18,9 @@ import com.vaadin.flow.router.RouteAlias;
 import com.vaadin.flow.theme.lumo.LumoUtility;
 import uth.clima.app.data.entity.SamplePerson;
 import uth.clima.app.views.MainLayout;
+import com.vaadin.flow.component.radiobutton.RadioButtonGroup;
+import com.vaadin.flow.component.radiobutton.RadioGroupVariant;
+
 
 @PageTitle("Consulta")
 @Route(value = "consulta", layout = MainLayout.class)
@@ -58,6 +61,7 @@ public class ConsultaView extends Div {
         
         
         
+        
         layout.setSizeFull();
         layout.setPadding(false);
         layout.setSpacing(false);
@@ -93,6 +97,7 @@ public class ConsultaView extends Div {
         private final TextField name = new TextField("Longitud");
         private final TextField phone = new TextField("Latitud");
         private final TextField Tiempo = new TextField("Ubicacion");
+        
 
         public Filters(Runnable onSearch) {
 
@@ -102,6 +107,13 @@ public class ConsultaView extends Div {
                     LumoUtility.BoxSizing.BORDER);
             name.setPlaceholder("Ingrese Coordenadas");
             phone.setPlaceholder("Ingrese Coordenadas");
+            
+          
+            RadioButtonGroup<String> Mostrar = new RadioButtonGroup<>();
+            Mostrar.addThemeVariants(RadioGroupVariant.LUMO_VERTICAL);
+            Mostrar.setLabel("Condicion Climatica");
+            Mostrar.setItems("Hoy", "Mañana", "Una Semana");
+           
 
 
             // Action buttons
@@ -125,8 +137,10 @@ public class ConsultaView extends Div {
             actions.addClassName(LumoUtility.Gap.SMALL);
             actions.addClassName("actions");
 
-            add(name, phone,Tiempo, actions);
+            add(name, phone,Tiempo,Mostrar, actions);
         }
+        
+        
 
 
        /* @Override
