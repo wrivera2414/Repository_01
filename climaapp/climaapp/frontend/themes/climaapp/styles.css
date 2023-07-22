@@ -1,0 +1,9 @@
+@import url('./main-layout.css');
+@import url('./views/consulta-view.css');    html {
+      --lumo-base-color: #040605;
+      --lumo-primary-color: hsl(230, 90%, 52%);
+      --lumo-primary-color-50pct: hsla(230, 90%, 52%, 0.5);
+      --lumo-primary-color-10pct: hsla(230, 90%, 52%, 0.1);
+      --lumo-body-text-color: hsla(214, 70%, 40%, 0.94);
+
+    }
